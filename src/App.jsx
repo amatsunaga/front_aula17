@@ -20,7 +20,7 @@ function App() {
           onChange={(e) => setFormData({ ...formData, name: e.target.value })}
         />
         <input
-          className="p-3 rounded-lg shadow-md w-full shadow-md"
+          className="p-3 rounded-lg shadow-md w-full"
           value={formData.price}
           type="text"
           placeholder="Preço"
